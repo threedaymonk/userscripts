@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        Youtube Flash to HTML5
-// @namespace   http://po-ru.com/scripts
+// @name        Change YouTube embedded Flash to HTML5
+// @namespace   https://github.com/threedaymonk/userscripts
 // @description Use HTML5 embed code instead of Flash
 // ==/UserScript==
 
