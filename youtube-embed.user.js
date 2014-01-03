@@ -6,7 +6,7 @@
 
 Array.prototype.filter.call(
   document.getElementsByTagName("embed"),
-  function(e){ return e.src.match(/youtube\.com/) }).
+  function(e){ return e.src.match(/youtube\.(googleapis\.)?com/) }).
   forEach(function(embed){
     var videoID = embed.src.match(/\/v\/([^&]+)/)[1];
     var iframe = document.createElement("iframe");
