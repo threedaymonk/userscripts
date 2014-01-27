@@ -8,11 +8,9 @@
 Array.prototype.filter.call(
   document.getElementsByTagName('iframe'),
   function(e){
-    console.log(e.src);
     return e.src.match(/view\.vzaar\.com/);
   }
 ).forEach(function(iframe){
-  console.log(iframe);
   var videoId = iframe.src.match(/view\.vzaar\.com\/([0-9]+)\/player/)[1];
   var video = document.createElement('video');
   video.controls = true;
