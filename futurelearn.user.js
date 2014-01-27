@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Make FutureLearn videos work in Firefox on Linux
 // @namespace   https://github.com/threedaymonk/userscripts
-// @description Use HTML5 embed code instead of Flash
+// @description Use HTML5 video instead of (broken) vzaar embed
 // @include     *.futurelearn.com/*
 // ==/UserScript==
 
