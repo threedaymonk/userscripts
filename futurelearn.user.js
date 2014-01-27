@@ -5,16 +5,15 @@
 // @include     *.futurelearn.com/*
 // ==/UserScript==
 
-Array.prototype.filter.call(
+Array.prototype.forEach.call(
   document.getElementsByTagName('iframe'),
-  function(e){
-    return e.src.match(/view\.vzaar\.com/);
+  function(iframe){
+    var videoId = iframe.src.match(/view\.vzaar\.com\/([0-9]+)\/player/)[1];
+    if (!videoId) { return; }
+    var video = document.createElement('video');
+    video.controls = true;
+    video.src = 'https://view.vzaar.com/' + videoId + '/video';
+    iframe.parentNode.insertBefore(video, iframe);
+    iframe.parentNode.removeChild(iframe);
   }
-).forEach(function(iframe){
-  var videoId = iframe.src.match(/view\.vzaar\.com\/([0-9]+)\/player/)[1];
-  var video = document.createElement('video');
-  video.controls = true;
-  video.src = 'https://view.vzaar.com/' + videoId + '/video';
-  iframe.parentNode.insertBefore(video, iframe);
-  iframe.parentNode.removeChild(iframe);
-});
+);
