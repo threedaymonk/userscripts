@@ -5,6 +5,7 @@
 // @include     *.futurelearn.com/*
 // ==/UserScript==
 
+/* global document */
 Array.prototype.forEach.call(
   document.getElementsByTagName('iframe'),
   function(iframe){
