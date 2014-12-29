@@ -4,10 +4,11 @@
 // @description Use HTML5 embed code instead of Flash
 // ==/UserScript==
 
-Array.prototype.filter.call(
+/* global document */
+Array.prototype.forEach.call(
   document.getElementsByTagName("embed"),
-  function(e){ return e.src.match(/youtube\.(googleapis\.)?com/) }).
-  forEach(function(embed){
+  function(embed){
+    if (!embed.src.match(/youtube\.(googleapis\.)?com/)) { return; }
     var videoID = embed.src.match(/\/v\/([^&]+)/)[1];
     var iframe = document.createElement("iframe");
     iframe.width = embed.width;
@@ -17,4 +18,5 @@ Array.prototype.filter.call(
     iframe.src = "http://www.youtube.com/embed/" + videoID;
     embed.parentNode.insertBefore(iframe, embed);
     embed.parentNode.removeChild(embed);
-  });
+  }
+);
