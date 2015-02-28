@@ -2,7 +2,7 @@
 // @name        Hacker News recent comments
 // @namespace   https://github.com/threedaymonk/userscripts
 // @description Highlight recent comments on Hacker News
-// @include     https://news.ycombinator.com/*
+// @include     https://news.ycombinator.com/item*
 // ==/UserScript==
 
 /* global document */
