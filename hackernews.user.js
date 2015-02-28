@@ -11,7 +11,8 @@ Array.prototype.forEach.call(
   function(anchor) {
     var matchData = anchor.innerHTML.match(/(\d+) minutes? ago/);
     if (!matchData) { return; }
-    var newness = (60 - parseInt(matchData[1], 10)) * (0.4 / 60);
+    var seconds = parseInt(matchData[1], 10);
+    var newness = 0.5 * Math.exp(-seconds / 30)
     var comment = anchor.parentNode.parentNode.parentNode;
     console.log(comment, newness);
     comment.style = 'background-color: rgba(255,255,0,' + newness + ');'
