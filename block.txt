@@ -1,3 +1,7 @@
+# My personal filters
+
+# Last updated: 2015-10-17
+
 www.theguardian.com##body > .breaking-news
 medium.com##.promoCard
 www.dailymail.co.uk##.beta
