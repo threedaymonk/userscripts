@@ -1,0 +1,6 @@
+www.theguardian.com##body > .breaking-news
+medium.com##.promoCard
+www.dailymail.co.uk##.beta
+www.dailymail.co.uk###most-watched-videos-wrapper
+www.dailymail.co.uk###most-read-news-wrapper
+www.dailymail.co.uk###infinite-list
