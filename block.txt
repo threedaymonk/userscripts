@@ -3,6 +3,7 @@
 # Last updated: 2015-10-17
 
 www.theguardian.com##body > .breaking-news
+www.theguardian.com##.js-adblock-sticky
 medium.com##.promoCard
 www.dailymail.co.uk##.beta
 www.dailymail.co.uk###most-watched-videos-wrapper
