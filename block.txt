@@ -2,10 +2,15 @@
 
 # Last updated: 2015-10-17
 
-www.theguardian.com##body > .breaking-news
-www.theguardian.com##.js-adblock-sticky
 medium.com##.promoCard
-www.dailymail.co.uk##.beta
-www.dailymail.co.uk###most-watched-videos-wrapper
-www.dailymail.co.uk###most-read-news-wrapper
+
+twitter.com##.trends.module
+twitter.com##.wtf-module
+
 www.dailymail.co.uk###infinite-list
+www.dailymail.co.uk###most-read-news-wrapper
+www.dailymail.co.uk###most-watched-videos-wrapper
+www.dailymail.co.uk##.beta
+
+www.theguardian.com##.js-adblock-sticky
+www.theguardian.com##body > .breaking-news
