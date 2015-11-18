@@ -4,7 +4,9 @@
 
 medium.com##.promoCard
 
-twitter.com##.trends.module
+twitter.com##.WhoToFollow
+twitter.com##.trends
+twitter.com##.Trends
 twitter.com##.wtf-module
 
 www.dailymail.co.uk###infinite-list
