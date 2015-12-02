@@ -16,6 +16,7 @@ www.dailymail.co.uk##.beta
 
 www.theguardian.com##.js-adblock-sticky
 www.theguardian.com##body > .breaking-news
+www.theguardian.com##.site-message
 
 www.christianwolmar.co.uk/*.js
 
