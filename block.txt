@@ -18,6 +18,8 @@ www.theguardian.com##.js-adblock-sticky
 www.theguardian.com##body > .breaking-news
 www.theguardian.com##.site-message
 
+www.bbc.co.uk###breaking-news-container
+
 www.christianwolmar.co.uk/*.js
 
 ###tumblr_teaser_follow
