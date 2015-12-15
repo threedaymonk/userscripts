@@ -1,8 +1,0 @@
-@-moz-document url-prefix(https://twitter.com/) {
-  div[data-promoted],
-  div.dashboard-right,
-  div.Footer,
-  div.trends-inner {
-    display: none;
-  }
-}
