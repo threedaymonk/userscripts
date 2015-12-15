@@ -4,6 +4,7 @@ twitter.com##.WhoToFollow
 twitter.com##.trends
 twitter.com##.Trends
 twitter.com##.wtf-module
+twitter.com##.js-moments-tab.moments
 
 www.dailymail.co.uk###infinite-list
 www.dailymail.co.uk###most-read-news-wrapper
