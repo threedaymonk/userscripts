@@ -22,3 +22,5 @@ www.christianwolmar.co.uk/*.js
 ###tumblr_teaser_follow
 
 vidible.tv
+
+www.paypal.com##.engagementMainBar-container
