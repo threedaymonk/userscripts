@@ -24,3 +24,5 @@ www.christianwolmar.co.uk/*.js
 vidible.tv
 
 www.paypal.com##.engagementMainBar-container
+
+www.pinterest.com##.Nags.Module
