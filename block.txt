@@ -5,6 +5,7 @@ twitter.com##.trends
 twitter.com##.Trends
 twitter.com##.wtf-module
 twitter.com##.js-moments-tab.moments
+twitter.com##.has-recap
 
 www.dailymail.co.uk###infinite-list
 www.dailymail.co.uk###most-read-news-wrapper
